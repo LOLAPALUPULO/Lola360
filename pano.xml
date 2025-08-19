@@ -1,129 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama apprev="18080" appversion="6.1.13" id="node1" hideabout="1">
-  <input levelbias="0.400" width="2048" overlap="1" leveltilesize="510" height="2048" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
-    <level width="2048" preload="0" height="2048" predecode="0"/>
-    <level width="1024" preload="0" height="1024" predecode="0"/>
-    <level width="512" preload="0" height="512" predecode="0"/>
-    <level width="256" preload="1" height="256" predecode="1"/>
-    <preview color="0x808080" strip="1"/>
+<panorama id="node1" appversion="6.1.13" apprev="18080" hideabout="1">
+  <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" overlap="1" width="2048" levelbias="0.400" height="2048" levelingroll="0">
+    <level predecode="0" preload="0" width="2048" height="2048"/>
+    <level predecode="0" preload="0" width="1024" height="1024"/>
+    <level predecode="0" preload="0" width="512" height="512"/>
+    <level predecode="1" preload="1" width="256" height="256"/>
+    <preview strip="1" color="0x808080"/>
   </input>
-  <view fovmode="0" pannorth="0">
-    <start fov="106.345" tilt="-1.27999" pan="-91.6858" projection="4"/>
-    <flyin fov="170" tilt="-90" pan="0" projection="9"/>
-    <min tilt="-57.5184" pan="-180" fovpixel="2"/>
-    <max fov="120" tilt="57.5184" fovfisheye="360" fovstereographic="270" pan="180"/>
+  <view pannorth="0" fovmode="0">
+    <start pan="-91.6858" projection="4" fov="106.345" tilt="-1.27999"/>
+    <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+    <min pan="-180" fovpixel="2" tilt="-57.5184"/>
+    <max pan="180" fovstereographic="270" fovfisheye="360" fov="120" tilt="57.5184"/>
   </view>
-  <userdata source="" comment="" description="" nodeid="node1" latitude="" longitude="" copyright="" author="" datetime="" heading="0" customnodeid="" info="" title="" tags="360"/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label borderalpha="1" width="180" background="1" border="1" height="20" wordwrap="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderradius="1" enabled="1" textcolor="0x000000"/>
-    <polystyle borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-    <polyhotspot description="" target="_blank" id="Poly01" title="https://www.instagram.com/lolapalupulo/" url="https://www.instagram.com/lolapalupulo/">
+  <userdata longitude="" heading="0" customnodeid="" info="" description="" comment="" tags="360" title="" copyright="" author="" datetime="" latitude="" source="" nodeid="node1"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" border="1" borderradius="1" background="1" wordwrap="1" enabled="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="180" height="20"/>
+    <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+    <polyhotspot description="" id="Poly01" title="https://www.instagram.com/lolapalupulo/" target="_blank" url="https://www.instagram.com/lolapalupulo/">
       <polystring>-86.37/-1.56|-86.34/-9.26|-93.95/-8.87|-93.52/-1.55</polystring>
     </polyhotspot>
-    <polyhotspot description="" target="_blank" id="Poly03" title="JUGAR LOLA SHOT" url="https://lolapalupulo.github.io/LOLA-Shot/">
+    <polyhotspot description="" id="Poly03" title="JUGAR LOLA SHOT" target="_blank" url="https://lolapalupulo.github.io/LOLA-Shot/">
       <polystring>-292.64/2.57|-292.72/-14.75|-300.83/-14.73|-301.19/2.6</polystring>
     </polyhotspot>
-    <polyhotspot description="" target="_blank" id="Poly02" title="whatsapp" url="https://api.whatsapp.com/send/?phone=5491155643838&amp;text&amp;app_absent=0">
+    <polyhotspot description="" id="Poly02" title="whatsapp" target="_blank" url="https://api.whatsapp.com/send/?phone=5491155643838&amp;text&amp;app_absent=0">
       <polystring>-86.02/-10.05|-93.24/-9.76|-93.3/-12.66|-85.27/-12.9</polystring>
     </polyhotspot>
-    <polyhotspot description="" target="_blank" id="Poly04" title="JUGAR T-LOLA" url="https://lolapalupulo.github.io/T-Lola/">
+    <polyhotspot description="" id="Poly04" title="JUGAR T-LOLA" target="_blank" url="https://lolapalupulo.github.io/T-Lola/">
       <polystring>-226.99/2.19|-227.51/-12.15|-234.25/-12.44|-234.31/2.05</polystring>
     </polyhotspot>
-    <polyhotspot description="" target="_blank" id="Poly05" title="JUGAR Lola Match" url="https://lolapalupulo.github.io/Lola-Match/">
+    <polyhotspot description="" id="Poly05" title="JUGAR Lola Match" target="_blank" url="https://lolapalupulo.github.io/Lola-Match/">
       <polystring>-257.78/2.59|-257.92/-13.54|-266.25/-14.64|-266.19/2.7</polystring>
     </polyhotspot>
-    <polyhotspot description="Descargar desde  Google Drive.&#xa;Una vez descargada buscar el archivo ( LOLA_ENTRENAMIENTO.apk ) e instalar. &#xa;No es una aplicación radicada en Google Play Store solicitara dar permisos para la instalación. " target="_blank" id="LOLA entrenamiento" title="DESCARGAR LOLA_ENTRENAMINETO" url="https://drive.usercontent.google.com/download?id=1WHMnJR_GGF_bHFjFR8Swi8-zJQHiO56Y&amp;export=download&amp;authuser=0">
+    <polyhotspot description="Descargar desde  Google Drive.&#xa;Una vez descargada buscar el archivo ( LOLA_ENTRENAMIENTO.apk ) e instalar. &#xa;No es una aplicación radicada en Google Play Store solicitara dar permisos para la instalación. " id="LOLA entrenamiento" title="DESCARGAR LOLA_ENTRENAMINETO" target="_blank" url="https://drive.usercontent.google.com/download?id=1WHMnJR_GGF_bHFjFR8Swi8-zJQHiO56Y&amp;export=download&amp;authuser=0">
       <polystring>-320.63/5.33|-320.67/2.35|-329.9/2.23|-329.9/5.33</polystring>
     </polyhotspot>
-    <polyhotspot description="Descargar desde  Google Drive.&#xa;Una vez descargada buscar el archivo ( LOLA_RALLY.apk ) e instalar. &#xa;No es una aplicación radicada en Google Play Store solicitara dar permisos para la instalación. " target="_blank" id="Lol Rally Plig" title="DESCARGAR LOLA RALLY" url="https://drive.usercontent.google.com/download?id=1yyDRCf-YAoH8PN15eQEWYMYXLI9Gky28&amp;export=download&amp;authuser=0">
+    <polyhotspot description="Descargar desde  Google Drive.&#xa;Una vez descargada buscar el archivo ( LOLA_RALLY.apk ) e instalar. &#xa;No es una aplicación radicada en Google Play Store solicitara dar permisos para la instalación. " id="Lol Rally Plig" title="DESCARGAR LOLA RALLY" target="_blank" url="https://drive.usercontent.google.com/download?id=1yyDRCf-YAoH8PN15eQEWYMYXLI9Gky28&amp;export=download&amp;authuser=0">
       <polystring>-205.47/4.09|-205.49/1.62|-212.64/1.6|-212.47/4.5</polystring>
     </polyhotspot>
-    <polyhotspot description="Descargar, descomprimir y listo. " target="_blank" id="Poly06" title="DESCARGAR" url="https://drive.usercontent.google.com/download?id=1s8Fk-0rWf9kqCXpeLDJN8U0sTP5hV9zL&amp;export=download&amp;authuser=0">
+    <polyhotspot description="Descargar, descomprimir y listo. " id="Poly06" title="DESCARGAR" target="_blank" url="https://drive.usercontent.google.com/download?id=1s8Fk-0rWf9kqCXpeLDJN8U0sTP5hV9zL&amp;export=download&amp;authuser=0">
       <polystring>-205.58/-5.11|-205.57/-7.73|-213.04/-7.9|-213.03/-5.19</polystring>
     </polyhotspot>
-    <polyhotspot description="" target="_blank" id="Poly07" title="" url="https://drive.google.com/file/d/1WHMnJR_GGF_bHFjFR8Swi8-zJQHiO56Y/view?usp=sharing">
+    <polyhotspot description="" id="Poly07" title="" target="_blank" url="https://drive.google.com/file/d/1WHMnJR_GGF_bHFjFR8Swi8-zJQHiO56Y/view?usp=sharing">
       <polystring>-319.85/-7.33|-319.94/-12.44|-329.97/-12.87|-329.95/-7.34|-329.95/-7.34</polystring>
     </polyhotspot>
-    <polyhotspot description="" target="_blank" id="Poly08" title="" url="javascript:alert(“Hola”);void(0)">
+    <polyhotspot description="" id="Poly08" title="" target="_blank" url="javascript:alert(“Hola”);void(0)">
       <polystring>-90.07/15.91|-89.94/9.71|-98.24/9.4|-98.77/15.8</polystring>
     </polyhotspot>
-    <hotspot skinid="LOLA youtube" fov="3.3815" tilt="-0.41" description="" distance3D="3286.16" customimage="media/Salta imag.jpg" customimagewidth="194" target="" use3D="1" pan="-179.34" customimageheight="211" id="PointVideo Lola YOutube" title="$(ut)" url=""/>
+    <hotspot description="" id="PointVideo Lola YOutube" pan="-179.34" title="$(ut)" customimageheight="211" target="" skinid="LOLA youtube" use3D="1" fov="3.3815" distance3D="3286.16" tilt="-0.41" customimagewidth="194" url="" customimage="media/Salta imag.jpg"/>
   </hotspots>
   <media>
-    <image rotx="0.000" fov="7.000" tilt="-4.630" stretch="1.010" width="330" handcursor="0" rotz="0.000" height="679" pan="-297.210" roty="0.000" id="Element05" clickmode="0">
+    <image roty="0.000" stretch="1.010" id="Element05" pan="-297.210" rotx="0.000" rotz="0.000" fov="7.000" handcursor="0" tilt="-4.630" clickmode="0" width="330" height="679">
       <source url="media/Jugar Lola Shot.png"/>
     </image>
-    <image rotx="0.000" fov="1.925" tilt="-5.620" stretch="1.000" width="360" handcursor="0" rotz="0.000" height="360" pan="-89.900" roty="0.000" id="Element08" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element08" pan="-89.900" rotx="0.000" rotz="0.000" fov="1.925" handcursor="0" tilt="-5.620" clickmode="0" width="360" height="360">
       <source url="media/iconinsta.png"/>
     </image>
-    <image rotx="1.000" fov="15.280" tilt="-2.880" stretch="1.000" width="925" handcursor="1" rotz="1.000" height="510" pan="-62.810" roty="31.000" id="Quiene somo" clickmode="1">
+    <image roty="31.000" stretch="1.000" id="Quiene somo" pan="-62.810" rotx="1.000" rotz="1.000" fov="15.280" handcursor="1" tilt="-2.880" clickmode="1" width="925" height="510">
       <source url="media/QUienes somos-06-06.png"/>
     </image>
-    <image rotx="0.000" fov="3.000" tilt="2.360" stretch="1.000" width="512" handcursor="0" rotz="-124.000" height="512" pan="-68.550" roty="0.000" id="Element07" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element07" pan="-68.550" rotx="0.000" rotz="-124.000" fov="3.000" handcursor="0" tilt="2.360" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="11.410" tilt="3.480" stretch="1.000" width="1126" handcursor="1" rotz="0.000" height="497" pan="-94.740" roty="0.000" id="Element02" clickmode="1">
+    <image roty="0.000" stretch="1.000" id="Element02" pan="-94.740" rotx="0.000" rotz="0.000" fov="11.410" handcursor="1" tilt="3.480" clickmode="1" width="1126" height="497">
       <source url="media/Fotos-08.png"/>
     </image>
-    <image rotx="0.000" fov="7.550" tilt="-8.210" stretch="1.000" width="926" handcursor="1" rotz="-3.000" height="582" pan="-105.550" roty="-20.000" id="Element12" clickmode="1">
+    <image roty="-20.000" stretch="1.000" id="Element12" pan="-105.550" rotx="0.000" rotz="-3.000" fov="7.550" handcursor="1" tilt="-8.210" clickmode="1" width="926" height="582">
       <source url="media/Estilos-06.png"/>
     </image>
-    <image rotx="0.000" fov="3.000" tilt="-11.260" stretch="1.000" width="512" handcursor="0" rotz="46.000" height="512" pan="-103.320" roty="0.000" id="Element15" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element15" pan="-103.320" rotx="0.000" rotz="46.000" fov="3.000" handcursor="0" tilt="-11.260" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="13.200" tilt="-0.960" stretch="1.000" width="926" handcursor="1" rotz="0.000" height="881" pan="-118.280" roty="-30.000" id="Element16" clickmode="1">
+    <image roty="-30.000" stretch="1.000" id="Element16" pan="-118.280" rotx="0.000" rotz="0.000" fov="13.200" handcursor="1" tilt="-0.960" clickmode="1" width="926" height="881">
       <source url="media/Que ofrecemos-07.png"/>
     </image>
-    <image rotx="0.000" fov="3.000" tilt="-8.610" stretch="1.000" width="512" handcursor="0" rotz="33.000" height="512" pan="-115.640" roty="0.000" id="Element17" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element17" pan="-115.640" rotx="0.000" rotz="33.000" fov="3.000" handcursor="0" tilt="-8.610" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="6.068" tilt="-11.230" stretch="1.000" width="160" handcursor="0" rotz="0.000" height="38" pan="-89.560" roty="0.000" id="Element09" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element09" pan="-89.560" rotx="0.000" rotz="0.000" fov="6.068" handcursor="0" tilt="-11.230" clickmode="0" width="160" height="38">
       <source url="media/Wap Icono-01.png"/>
     </image>
-    <image rotx="0.000" fov="5.880" tilt="-3.860" stretch="0.950" width="330" handcursor="0" rotz="0.000" height="679" pan="-230.890" roty="16.000" id="Element04" clickmode="0">
+    <image roty="16.000" stretch="0.950" id="Element04" pan="-230.890" rotx="0.000" rotz="0.000" fov="5.880" handcursor="0" tilt="-3.860" clickmode="0" width="330" height="679">
       <source url="media/Jugar T Lola.png"/>
     </image>
-    <image rotx="0.000" fov="2.000" tilt="1.050" stretch="1.000" width="512" handcursor="0" rotz="-39.000" height="512" pan="-100.260" roty="0.000" id="Element10" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element10" pan="-100.260" rotx="0.000" rotz="-39.000" fov="2.000" handcursor="0" tilt="1.050" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="2.000" tilt="-11.790" stretch="1.000" width="512" handcursor="0" rotz="-35.000" height="512" pan="-91.990" roty="0.000" id="Element18" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element18" pan="-91.990" rotx="0.000" rotz="-35.000" fov="2.000" handcursor="0" tilt="-11.790" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="7.740" tilt="-4.820" stretch="0.930" width="330" handcursor="0" rotz="0.000" height="679" pan="-262.260" roty="4.000" id="Element19" clickmode="0">
+    <image roty="4.000" stretch="0.930" id="Element19" pan="-262.260" rotx="0.000" rotz="0.000" fov="7.740" handcursor="0" tilt="-4.820" clickmode="0" width="330" height="679">
       <source url="media/Jugar Lola match.png"/>
     </image>
-    <image rotx="0.000" fov="2.990" tilt="4.800" stretch="1.000" width="512" handcursor="0" rotz="-130.000" height="512" pan="-329.110" roty="0.000" id="Descargar desde  Google Drive LOLA ENTRENAMIENTO&#xa;" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Descargar desde  Google Drive LOLA ENTRENAMIENTO&#xa;" pan="-329.110" rotx="0.000" rotz="-130.000" fov="2.990" handcursor="0" tilt="4.800" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="3.147" tilt="3.840" stretch="1.000" width="512" handcursor="0" rotz="-145.000" height="512" pan="-211.490" roty="0.000" id="Element13" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element13" pan="-211.490" rotx="0.000" rotz="-145.000" fov="3.147" handcursor="0" tilt="3.840" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <image rotx="0.000" fov="7.000" tilt="-6.720" stretch="1.000" width="891" handcursor="0" rotz="0.000" height="300" pan="-209.190" roty="6.000" id="diswin" clickmode="0">
+    <image roty="6.000" stretch="1.000" id="diswin" pan="-209.190" rotx="0.000" rotz="0.000" fov="7.000" handcursor="0" tilt="-6.720" clickmode="0" width="891" height="300">
       <source url="media/disponible-wind.png"/>
     </image>
-    <image rotx="0.000" fov="3.000" tilt="-6.250" stretch="1.000" width="512" handcursor="0" rotz="-115.000" height="512" pan="-212.750" roty="0.000" id="Element21" clickmode="0">
+    <image roty="0.000" stretch="1.000" id="Element21" pan="-212.750" rotx="0.000" rotz="-115.000" fov="3.000" handcursor="0" tilt="-6.250" clickmode="0" width="512" height="512">
       <source url="media/clic.png"/>
     </image>
-    <video nodechangekeep="0" roty="0.000" rotx="0.000" fov="21.540" id="Element06" loop="0" ambientlevel="0.000" pansize="10.000" handcursor="0" tilt="-0.950" pan="165.740" mode="1" width="496" height="496" clickmode="0" tiltsize="10.000" level="0.300" field="90.000" stretch="1.000" rotz="0.000" startmutedmobile="0">
+    <video clickmode="0" height="496" ambientlevel="0.000" rotz="0.000" level="0.300" tiltsize="10.000" id="Element06" handcursor="0" nodechangekeep="0" stretch="1.000" mode="1" pansize="10.000" field="90.000" startmutedmobile="0" loop="0" width="496" rotx="0.000" roty="0.000" fov="21.540" pan="165.740" tilt="-0.950">
       <source url="media/patches1dino.mp4"/>
     </video>
-    <video nodechangekeep="0" roty="0.000" rotx="0.000" fov="14.700" id="Element11" loop="0" ambientlevel="0.000" pansize="10.000" handcursor="0" tilt="0.720" pan="-147.930" mode="1" width="336" height="336" clickmode="0" tiltsize="10.000" level="1.000" field="90.000" stretch="1.000" rotz="0.000" startmutedmobile="0">
+    <video clickmode="0" height="336" ambientlevel="0.000" rotz="0.000" level="1.000" tiltsize="10.000" id="Element11" handcursor="0" nodechangekeep="0" stretch="1.000" mode="1" pansize="10.000" field="90.000" startmutedmobile="0" loop="0" width="336" rotx="0.000" roty="0.000" fov="14.700" pan="-147.930" tilt="0.720">
       <source url="media/patch gorila.mp4"/>
     </video>
-    <video nodechangekeep="0" roty="0.000" rotx="0.000" fov="13.040" id="Element01" loop="0" ambientlevel="0.000" pansize="10.000" handcursor="0" tilt="1.710" pan="354.980" mode="1" width="304" height="160" clickmode="0" tiltsize="10.000" level="1.000" field="90.000" stretch="1.000" rotz="0.000" startmutedmobile="1">
+    <video clickmode="0" height="160" ambientlevel="0.000" rotz="0.000" level="1.000" tiltsize="10.000" id="Element01" handcursor="0" nodechangekeep="0" stretch="1.000" mode="1" pansize="10.000" field="90.000" startmutedmobile="1" loop="0" width="304" rotx="0.000" roty="0.000" fov="13.040" pan="354.980" tilt="1.710">
       <source url="media/Dino grande patch.mp4"/>
     </video>
-    <video nodechangekeep="0" roty="0.000" rotx="0.000" fov="13.910" id="Element20" loop="0" ambientlevel="0.000" pansize="10.000" handcursor="1" tilt="-1.520" pan="34.980" mode="1" width="320" height="160" clickmode="2" tiltsize="10.000" level="0.000" field="90.000" stretch="1.000" rotz="0.000" startmutedmobile="0">
+    <video clickmode="2" height="160" ambientlevel="0.000" rotz="0.000" level="0.000" tiltsize="10.000" id="Element20" handcursor="1" nodechangekeep="0" stretch="1.000" mode="1" pansize="10.000" field="90.000" startmutedmobile="0" loop="0" width="320" rotx="0.000" roty="0.000" fov="13.910" pan="34.980" tilt="-1.520">
       <source url="media/Patch-Lola entrenamiento.mp4"/>
     </video>
-    <video nodechangekeep="0" roty="0.000" rotx="0.000" fov="10.480" id="Element03" loop="0" ambientlevel="0.000" pansize="10.000" handcursor="0" tilt="-0.990" pan="150.820" mode="1" width="240" height="144" clickmode="2" tiltsize="10.000" level="0.000" field="90.000" stretch="1.000" rotz="0.000" startmutedmobile="0">
+    <video clickmode="2" height="144" ambientlevel="0.000" rotz="0.000" level="0.000" tiltsize="10.000" id="Element03" handcursor="0" nodechangekeep="0" stretch="1.000" mode="1" pansize="10.000" field="90.000" startmutedmobile="0" loop="0" width="240" rotx="0.000" roty="0.000" fov="10.480" pan="150.820" tilt="-0.990">
       <source url="media/patch- lolarally.mp4"/>
     </video>
-    <sound nodechangekeep="0" tilt="-24.540" ambientlevel="0.800" field="90.000" startmutedmobile="0" pan="-91.850" loop="0" pansize="10.000" id="Element14" mode="3" tiltsize="10.000" level="0.900">
+    <sound pansize="10.000" startmutedmobile="0" id="Element14" pan="-91.850" ambientlevel="0.800" tiltsize="10.000" mode="3" tilt="-24.540" level="0.900" nodechangekeep="0" loop="0" field="90.000">
       <source url="media/pajaros.mp3"/>
     </sound>
   </media>
-  <transition zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomfov="20" zoomafterinfov="90" zoomin="0" blendtime="1" zoomoutpause="1" zoomout="0" enabled="1" softedge="0" blendcolor="0x000000"/>
-  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-  <control invertcontrol="1" contextvr="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="0" lockedwheel="0" lockedmouse="0" rubberband="0" dblclickfullscreen="0" speedwheel="1" hideabout="1" lockedkeyboard="0" invertwheel="0"/>
+  <transition softedge="0" blendcolor="0x000000" enabled="1" blendtime="1" zoomspeed="2" zoomout="0" zoomafteroutfov="20" type="crossdissolve" zoomafterinfov="90" zoomoutpause="1" zoomin="0" zoomfov="20"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control contextfullscreen="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" contextprojections="0" rubberband="0" lockedmouse="0" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" speedwheel="1" hideabout="1"/>
 </panorama>
