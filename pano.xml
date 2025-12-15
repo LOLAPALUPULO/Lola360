@@ -17,7 +17,7 @@
   <hotspots width="180" height="20" wordwrap="1">
     <label borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" enabled="1" height="20" bordercolor="0x000000" wordwrap="1" border="1" textcolor="0x000000" background="1" textalpha="1" borderalpha="1"/>
     <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-    <polyhotspot url="http://www.marcelomagni.com.ar/contador.php?elemento=CLIK EN LOLA INSTAGRAM'" description="" target="_self" id="Click, instagram" title="cl">
+    <polyhotspot url="javascript:fetch('http://www.marcelomagni.com.ar/contador.php?elemento=CLIK EN LOLA INSTAGRAM');" description="" target="_self" id="Click, instagram" title="cl">
       <polystring>-87.09/-2.17|-86.34/-9.26|-93.95/-8.87|-92.79/-2.36</polystring>
     </polyhotspot>
     <polyhotspot url="https://lolapalupulo.github.io/LOLA-Shot/" description="" target="_blank" id="Poly03" title="JUGAR LOLA SHOT">
